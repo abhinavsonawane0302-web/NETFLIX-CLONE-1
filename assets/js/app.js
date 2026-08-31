@@ -288,8 +288,11 @@ addMovieBtn.addEventListener("click", function () {
 closemodalBtn.addEventListener("click", function () {
     moviemodal.style.display = "none"
 
-    movieform.reset()
+  
 })
 
+Cancel.addEventListener("click", function (){
+    moviemodal.style.display ="none"
+})
 
-
+  movieform.reset()
