@@ -272,7 +272,7 @@ function ondelete(ele){
 
   //  localStorage.setItem("movies", JSON.stringify(movies))
 
-    readcard(movies)
+    readcard(moviearr)
 
 }
 
